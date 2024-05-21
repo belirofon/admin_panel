@@ -24,7 +24,7 @@
 ```bash
 git clone https://github.com/yourusername/admin-panel-project.git
 
-2. Склонируйте репозиторий:
+2. Перейдите в проект:
 
 ```bash
 cd admin-panel-project
