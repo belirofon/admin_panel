@@ -21,43 +21,49 @@
 
 1. Склонируйте репозиторий:
 
-```bash
+```sh
 git clone https://github.com/yourusername/admin-panel-project.git
-
+```
 2. Перейдите в проект:
 
-```bash
+```sh
 cd admin-panel-project
-
+```
 3. Установите зависимости для бэкенда и фронтенда:
 
-```bash
+```sh
 cd api && npm install
+```
 # или
+```sh
 cd api && yarn install
-
+```
 cd ../front && npm install
 # или
+```sh
 cd front && yarn install
-
+```
 4. Запустите PostgreSQL в Docker:
 
-```bash
+```sh
 docker-compose up -d
-
+```
 5. Запустите бэкенд NestJS:
 
-```bash
+```sh
 cd api && npm run start:dev
+```
 # или
+```sh
 cd api && yarn start:dev
-
+```
 
 6. Запустите фронтенд React:
 
-```bash
+```sh
 cd front && npm start
+```
 # или
 cd front && yarn start
-
+```sh
 ### Приложение будет доступно по адресу http://localhost:3000.
